@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smily Visitors</string>
+
+
+    <string name="take_picture">PICTURE</string>
+    <string name="switch_camera">SWITCH</string>
+    <string name="record_video">VIDEO</string>
+    <string name="stop_video">STOP</string>
+    <string name="qr_code_scan_instruction">QrCode Scan</string>
+
+</resources>

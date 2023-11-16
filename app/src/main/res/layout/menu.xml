@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="400dp">
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dialog_bg"
+            android:text="QRCODE SCAN"
+            android:textColor="#000"
+            android:textSize="20dp"
+
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn_scan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_bg"
+            android:text="Exhibitor List "
+            android:textColor="#000"
+            android:textSize="20dp"
+
+            android:textStyle="bold">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btn_newuser"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn_share"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_bg"
+            android:text="Capture New"
+            android:textColor="#000"
+            android:textSize="20dp"
+
+            android:textStyle="bold">
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

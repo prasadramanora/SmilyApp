@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_btn_autofocus.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable-v24\\btn_autofocus.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tab_host.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\activity_tab_host.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_camera_switch.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable-v24\\camera_switch.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_welcome.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\welcome.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_share.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_qrcode.webp.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\qrcode.webp"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_bg.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_exhibitor_name.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\exhibitor_name.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_marker.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable-v24\\marker.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_qrcodeimg.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\qrcodeimg.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cameraimg.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\cameraimg.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_exhibitorlist.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\exhibitorlist.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visitor.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\visitor.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewimage.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\viewimage.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_qrcode.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\qrcode.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shutter.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable-v24\\shutter.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_smily.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\smily.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_rowlayout.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\rowlayout.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_start.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\start.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_userimg.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\userimg.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_appiconnew.jpeg.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\appiconnew.jpeg"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\layout_allowpermission.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\layout\\allowpermission.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_border.xml.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\no_border.xml"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\drawable_start.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\drawable\\start.png"
+    },
+    {
+        "merged": "D:\\Ramanora All projects\\SmilyAppGit\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Ramanora All projects\\SmilyAppGit\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    }
+]

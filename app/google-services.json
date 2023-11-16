@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "300420287841",
+    "project_id": "smilyapp-4d86d",
+    "storage_bucket": "smilyapp-4d86d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300420287841:android:6d811c768691d2607a4920",
+        "android_client_info": {
+          "package_name": "com.ramanoraglobal.SmilyApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxlrQDIg657kAEZtnzh-JBQgtZ-36rE50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

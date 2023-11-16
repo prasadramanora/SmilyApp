@@ -1,0 +1,484 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ramanoraglobal.SmilyApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera.any" />
+11-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:5:5-64
+11-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:5:19-61
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:6:5-67
+13-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:7:5-65
+14-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:7:22-62
+15    <uses-permission
+15-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:8:5-9:38
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:8:22-77
+17        android:maxSdkVersion="32" />
+17-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:9:9-35
+18    <uses-permission
+18-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:10:5-12:40
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:10:22-78
+20        android:maxSdkVersion="32" />
+20-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:11:9-35
+21
+22    <uses-feature
+22-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:13:5-15:34
+23        android:name="android.hardware.camera"
+23-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:14:9-47
+24        android:required="true" />
+24-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:15:9-32
+25    <uses-feature
+25-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:17:5-19:36
+26        android:name="android.hardware.camera.autofocus"
+26-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:18:9-57
+27        android:required="false" />
+27-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:19:9-33
+28    <uses-feature
+28-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:21:5-23:35
+29        android:name="android.hardware.camera2"
+29-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:22:9-48
+30        android:required="true" />
+30-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:23:9-32
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:24:5-89
+32-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:24:22-65
+33
+34    <uses-feature
+34-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:26:5-90
+35        android:name="android.hardware.camera.front"
+35-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:26:19-63
+36        android:required="true" />
+36-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:26:64-87
+37    <uses-feature
+37-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:27:5-89
+38        android:name="android.hardware.camera2.full"
+38-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:27:19-63
+39        android:required="true" />
+39-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:27:64-87
+40
+41    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+41-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:28:5-76
+41-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:28:22-73
+42    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+42-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:29:5-75
+42-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:29:22-72
+43    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+43-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:30:5-75
+43-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:30:22-72
+44
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:36:5-38:36
+46        android:name="android.hardware.camera.flash"
+46-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:37:9-53
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:38:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:39:5-41:36
+49        android:name="android.hardware.screen.landscape"
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:40:9-57
+50        android:required="false" />
+50-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:41:9-33
+51    <uses-feature
+51-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:42:5-44:36
+52        android:name="android.hardware.wifi"
+52-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:43:9-45
+53        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+53-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
+54    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+55    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+55-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+55-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:22-76
+56    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+56-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+56-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+57    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+57-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+57-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+58    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+58-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+58-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+59    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+59-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+59-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+60
+61    <permission
+61-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\transforms-3\6aa36048b7accfe37718428bba72e94e\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+62        android:name="com.ramanoraglobal.SmilyApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+62-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\transforms-3\6aa36048b7accfe37718428bba72e94e\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+63        android:protectionLevel="signature" />
+63-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\transforms-3\6aa36048b7accfe37718428bba72e94e\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+64
+65    <uses-permission android:name="com.ramanoraglobal.SmilyApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+65-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\transforms-3\6aa36048b7accfe37718428bba72e94e\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+65-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\transforms-3\6aa36048b7accfe37718428bba72e94e\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+66
+67    <application
+67-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:31:5-100:19
+68        android:allowBackup="true"
+68-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:32:9-35
+69        android:appComponentFactory="androidx"
+69-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:36:9-47
+70        android:debuggable="true"
+71        android:icon="@drawable/visitor"
+71-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:33:9-41
+72        android:label="@string/app_name"
+72-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:34:9-41
+73        android:roundIcon="@drawable/visitor"
+73-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:37:9-46
+74        android:supportsRtl="true"
+74-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:38:9-35
+75        android:testOnly="true"
+76        android:theme="@style/AppTheme"
+76-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:41:9-40
+77        android:usesCleartextTraffic="true" >
+77-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:39:9-44
+78        <meta-data
+78-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:43:9-45:35
+79            android:name="com.google.android.gms.vision.DEPENDENCIES"
+79-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:44:13-70
+80            android:value="face" />
+80-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:45:13-33
+81
+82        <activity
+82-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:46:9-55:20
+83            android:name="com.ramanoraglobal.SmilyApp.Activity.SplashActivity"
+83-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:46:19-85
+84            android:exported="true"
+84-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:49:13-36
+85            android:screenOrientation="fullSensor" >
+85-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:48:13-51
+86            <intent-filter>
+86-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:50:13-54:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:51:17-69
+87-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:51:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:53:17-77
+89-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:53:27-74
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:56:9-59:65
+93            android:name="com.ramanoraglobal.SmilyApp.Activity.SmilyCamera"
+93-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:56:19-82
+94            android:label="Take Photo"
+94-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:57:13-39
+95            android:screenOrientation="portrait"
+95-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:58:13-49
+96            android:theme="@style/Theme.AppCompat.NoActionBar" />
+96-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:59:13-63
+97        <activity
+97-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:60:9-63:46
+98            android:name="com.ramanoraglobal.SmilyApp.Activity.MainActivity"
+98-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:60:19-83
+99            android:label="Take Photo"
+99-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:61:13-39
+100            android:screenOrientation="portrait"
+100-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:62:13-49
+101            android:theme="@style/AppTheme" />
+101-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:63:13-44
+102        <activity
+102-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:64:9-67:46
+103            android:name="com.ramanoraglobal.SmilyApp.Activity.QrCodeImageShare"
+103-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:64:19-87
+104            android:label="Share Visitor Image"
+104-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:65:13-48
+105            android:screenOrientation="portrait"
+105-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:66:13-49
+106            android:theme="@style/AppTheme" />
+106-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:67:13-44
+107        <activity
+107-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:68:9-71:46
+108            android:name="com.ramanoraglobal.SmilyApp.Activity.ViewImage"
+108-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:68:19-80
+109            android:label=" Visitor Image"
+109-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:69:13-43
+110            android:screenOrientation="portrait"
+110-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:70:13-49
+111            android:theme="@style/AppTheme" />
+111-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:71:13-44
+112        <activity
+112-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:72:9-75:42
+113            android:name="com.ramanoraglobal.SmilyApp.Activity.QrCodeActivity"
+113-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:72:19-85
+114            android:label="QrCode Scan"
+114-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:75:13-40
+115            android:screenOrientation="portrait"
+115-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:74:13-49
+116            android:theme="@style/AppTheme" />
+116-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:73:13-44
+117        <activity android:name="com.ramanoraglobal.SmilyApp.utils.TabHostActivity" />
+117-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:76:9-86
+117-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:76:19-83
+118        <activity
+118-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:77:9-78:53
+119            android:name="com.ramanoraglobal.SmilyApp.Activity.ScanActivity"
+119-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:77:19-83
+120            android:screenOrientation="fullSensor" />
+120-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:78:13-51
+121        <activity
+121-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:79:9-82:44
+122            android:name="com.ramanoraglobal.SmilyApp.Activity.ExhibitorList"
+122-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:79:19-84
+123            android:label="Visitors List"
+123-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:82:13-42
+124            android:screenOrientation="portrait"
+124-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:81:13-49
+125            android:theme="@style/AppTheme" />
+125-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:80:13-44
+126        <activity
+126-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:83:9-86:43
+127            android:name="com.ramanoraglobal.SmilyApp.Activity.Start"
+127-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:83:19-76
+128            android:label="Add Visitors"
+128-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:86:13-41
+129            android:screenOrientation="portrait"
+129-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:85:13-49
+130            android:theme="@style/AppTheme" />
+130-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:84:13-44
+131        <activity
+131-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:87:9-90:42
+132            android:name="com.ramanoraglobal.SmilyApp.Activity.Menu"
+132-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:87:19-75
+133            android:label="Select Menu"
+133-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:90:13-40
+134            android:screenOrientation="portrait"
+134-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:89:13-49
+135            android:theme="@style/AppTheme" />
+135-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:88:13-44
+136
+137        <provider
+138            android:name="androidx.core.content.FileProvider"
+138-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:92:13-62
+139            android:authorities="com.ramanoraglobal.SmilyApp.provider"
+139-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:93:13-60
+140            android:exported="false"
+140-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:94:13-37
+141            android:grantUriPermissions="true" >
+141-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:95:13-47
+142            <meta-data
+142-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:96:13-98:57
+143                android:name="android.support.FILE_PROVIDER_PATHS"
+143-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:97:17-67
+144                android:resource="@xml/provider_paths" />
+144-->D:\Ramanora All projects\SmilyAppGit\app\src\main\AndroidManifest.xml:98:17-55
+145        </provider>
+146
+147        <activity
+147-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
+148            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+148-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
+149            android:clearTaskOnLaunch="true"
+149-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+150            android:screenOrientation="sensorLandscape"
+150-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
+151            android:stateNotNeeded="true"
+151-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+152            android:theme="@style/zxing_CaptureTheme"
+152-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+153            android:windowSoftInputMode="stateAlwaysHidden" />
+153-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\abc\.gradle\caches\transforms-3\5751bd21311f8c6414fa9f3de0324053\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
+154
+155        <service
+155-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:12:9-21:19
+156            android:name="com.google.firebase.components.ComponentDiscoveryService"
+156-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:13:13-84
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+158            android:exported="false" >
+158-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:14:13-37
+159            <meta-data
+159-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:15:13-17:85
+160                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+160-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:16:17-126
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:17:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:18:13-20:85
+163                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+163-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:19:17-115
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-crashlytics:18.5.1] C:\Users\abc\.gradle\caches\transforms-3\7edb686b8bdaa3f3e1214cc8fc879123\transformed\jetified-firebase-crashlytics-18.5.1\AndroidManifest.xml:20:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-sessions:1.1.0] C:\Users\abc\.gradle\caches\transforms-3\66571b8ed7ed109ea31fd055197d629c\transformed\jetified-firebase-sessions-1.1.0\AndroidManifest.xml:25:13-27:85
+166                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+166-->[com.google.firebase:firebase-sessions:1.1.0] C:\Users\abc\.gradle\caches\transforms-3\66571b8ed7ed109ea31fd055197d629c\transformed\jetified-firebase-sessions-1.1.0\AndroidManifest.xml:26:17-117
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-sessions:1.1.0] C:\Users\abc\.gradle\caches\transforms-3\66571b8ed7ed109ea31fd055197d629c\transformed\jetified-firebase-sessions-1.1.0\AndroidManifest.xml:27:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\abc\.gradle\caches\transforms-3\a76d60bed287e56c66ce9f25033d7eb8\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+169                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+169-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\abc\.gradle\caches\transforms-3\a76d60bed287e56c66ce9f25033d7eb8\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\abc\.gradle\caches\transforms-3\a76d60bed287e56c66ce9f25033d7eb8\transformed\jetified-firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+171            <meta-data
+171-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+172                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+172-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\abc\.gradle\caches\transforms-3\66db0e4f11ad7e9c0978741b03fdbb04\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+175                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+175-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\abc\.gradle\caches\transforms-3\66db0e4f11ad7e9c0978741b03fdbb04\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\abc\.gradle\caches\transforms-3\66db0e4f11ad7e9c0978741b03fdbb04\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\abc\.gradle\caches\transforms-3\66db0e4f11ad7e9c0978741b03fdbb04\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+178                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+178-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\abc\.gradle\caches\transforms-3\66db0e4f11ad7e9c0978741b03fdbb04\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\abc\.gradle\caches\transforms-3\66db0e4f11ad7e9c0978741b03fdbb04\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\7336ea0fcd2816136d63775e08dbfc00\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+181                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+181-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\7336ea0fcd2816136d63775e08dbfc00\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\7336ea0fcd2816136d63775e08dbfc00\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+184                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+184-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+186        </service>
+187        <service
+187-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+188            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+188-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+189            android:exported="false" >
+189-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+190            <meta-data
+190-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+191                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+191-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+192                android:value="cct" />
+192-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\f1ba4be0dbf919964398f3f356eee3df\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+193        </service>
+194        <service
+194-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\58351be01b098d69bcceb36fa05c4d0f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+195            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+195-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\58351be01b098d69bcceb36fa05c4d0f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+196            android:exported="false"
+196-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\58351be01b098d69bcceb36fa05c4d0f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+197            android:permission="android.permission.BIND_JOB_SERVICE" >
+197-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\58351be01b098d69bcceb36fa05c4d0f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+198        </service>
+199
+200        <receiver
+200-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\58351be01b098d69bcceb36fa05c4d0f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+201            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+201-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\58351be01b098d69bcceb36fa05c4d0f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+202            android:exported="false" />
+202-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\abc\.gradle\caches\transforms-3\58351be01b098d69bcceb36fa05c4d0f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+203
+204        <property
+204-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+205            android:name="android.adservices.AD_SERVICES_CONFIG"
+205-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+206            android:resource="@xml/ga_ad_services_config" />
+206-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\a15b6e0d55ef5f845235a69ae84e24b8\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+207
+208        <provider
+208-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+209            android:name="com.google.firebase.provider.FirebaseInitProvider"
+209-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+210            android:authorities="com.ramanoraglobal.SmilyApp.firebaseinitprovider"
+210-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+211            android:directBootAware="true"
+211-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+212            android:exported="false"
+212-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+213            android:initOrder="100" />
+213-->[com.google.firebase:firebase-common:20.4.2] C:\Users\abc\.gradle\caches\transforms-3\ed82ef2f3510d1fbc5c781e907203f11\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+214
+215        <activity
+215-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\abc\.gradle\caches\transforms-3\aadfe5047b483f05254d2c03ac80f7ee\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+216            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+216-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\abc\.gradle\caches\transforms-3\aadfe5047b483f05254d2c03ac80f7ee\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\abc\.gradle\caches\transforms-3\aadfe5047b483f05254d2c03ac80f7ee\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\abc\.gradle\caches\transforms-3\aadfe5047b483f05254d2c03ac80f7ee\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+219
+220        <receiver
+220-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+221            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+221-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+222            android:enabled="true"
+222-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+223            android:exported="false" >
+223-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+224        </receiver>
+225
+226        <service
+226-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+227            android:name="com.google.android.gms.measurement.AppMeasurementService"
+227-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+228            android:enabled="true"
+228-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+229            android:exported="false" />
+229-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+230        <service
+230-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+231            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+231-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+232            android:enabled="true"
+232-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+233            android:exported="false"
+233-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+234            android:permission="android.permission.BIND_JOB_SERVICE" />
+234-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\abc\.gradle\caches\transforms-3\0aa9621263b6328d139929ee379b4fbc\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+235
+236        <uses-library
+236-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\abc\.gradle\caches\transforms-3\41b0f5791509c7a5782bfe5a6efcf00d\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+237            android:name="android.ext.adservices"
+237-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\abc\.gradle\caches\transforms-3\41b0f5791509c7a5782bfe5a6efcf00d\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+238            android:required="false" />
+238-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\abc\.gradle\caches\transforms-3\41b0f5791509c7a5782bfe5a6efcf00d\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+239
+240        <meta-data
+240-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\abc\.gradle\caches\transforms-3\1ae87bd1cd743b7784857569cce1b2ac\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+241            android:name="com.google.android.gms.version"
+241-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\abc\.gradle\caches\transforms-3\1ae87bd1cd743b7784857569cce1b2ac\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+242            android:value="@integer/google_play_services_version" />
+242-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\abc\.gradle\caches\transforms-3\1ae87bd1cd743b7784857569cce1b2ac\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+243
+244        <provider
+244-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\transforms-3\d253a814e60e7faa1342833c5b42eb48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+245            android:name="androidx.startup.InitializationProvider"
+245-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\transforms-3\d253a814e60e7faa1342833c5b42eb48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+246            android:authorities="com.ramanoraglobal.SmilyApp.androidx-startup"
+246-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\transforms-3\d253a814e60e7faa1342833c5b42eb48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+247            android:exported="false" >
+247-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\transforms-3\d253a814e60e7faa1342833c5b42eb48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+248            <meta-data
+248-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\transforms-3\d253a814e60e7faa1342833c5b42eb48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+249                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+249-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\transforms-3\d253a814e60e7faa1342833c5b42eb48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+250                android:value="androidx.startup" />
+250-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\transforms-3\d253a814e60e7faa1342833c5b42eb48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+251            <meta-data
+251-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\abc\.gradle\caches\transforms-3\4d942862cddf18b0f6b199ae9c4df74d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+252                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+252-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\abc\.gradle\caches\transforms-3\4d942862cddf18b0f6b199ae9c4df74d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+253                android:value="androidx.startup" />
+253-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\abc\.gradle\caches\transforms-3\4d942862cddf18b0f6b199ae9c4df74d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+254        </provider>
+255    </application>
+256
+257</manifest>

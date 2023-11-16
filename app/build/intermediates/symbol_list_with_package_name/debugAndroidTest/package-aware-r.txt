@@ -1,0 +1,3 @@
+com.ramanoraglobal.SmilyApp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

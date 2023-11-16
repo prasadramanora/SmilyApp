@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ramanoraglobal.SmilyApp">
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" tools:node="replace" />
+
+    <uses-feature android:name="android.hardware.camera.front" android:required="true" />
+    <uses-feature android:name="android.hardware.camera2.full" android:required="true"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/visitor"
+        android:label="@string/app_name"
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="androidx"
+        android:roundIcon="@drawable/visitor"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:theme="@style/AppTheme"
+        tools:targetApi="m">
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.SplashActivity"
+
+            android:screenOrientation="fullSensor"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.SmilyCamera"
+            android:label="Take Photo"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.MainActivity"
+            android:label="Take Photo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.QrCodeImageShare"
+            android:label="Share Visitor Image"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.ViewImage"
+            android:label=" Visitor Image"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.QrCodeActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:label="QrCode Scan"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.utils.TabHostActivity" />
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.ScanActivity"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.ExhibitorList"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:label="Visitors List"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.Start"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:label="Add Visitors"/>
+        <activity android:name="com.ramanoraglobal.SmilyApp.Activity.Menu"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:label="Select Menu"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>
