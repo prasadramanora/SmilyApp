@@ -5,3 +5,7 @@ This app helps user to take selfie without clicking any button. User just need t
 ## Captured Image on Smile
 
 ![alt text](https://github.com/CHIRANJIT1988/android-camera2-smile-detect-capture/blob/master/screenshot/IMG_20181223_164152.png)
+
+smily app access token
+
+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
